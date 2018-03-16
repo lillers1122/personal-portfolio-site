@@ -1,0 +1,72 @@
+/* * {
+  border: black 1px solid;
+} */
+
+/* BASIC */
+body {
+  font-family: 'Cormorant Garamond', serif;
+  color: black;
+  /* height: 100vh; */
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 5em;
+  opacity: 1;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  opacity: 1;
+}
+
+/* NAV */
+nav {
+  background-color: #245972;
+  opacity: .75;
+  padding: 1px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr;
+}
+
+nav li {
+  display: inline;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* FOOTER */
+footer {
+  background-color: #2B303A;
+}
+
+footer p {
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+
+/* SMALL SCREEN */
+/* @media screen and (max-width: 500px) {
+  nav ul {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+  } */
+
+/* } */

@@ -1,0 +1,57 @@
+/* MAIN */
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+
+.dino {
+  background-color: white;
+  padding-top: 6em;
+  text-align: center;
+}
+
+.dino img {
+  max-width: 20em;
+
+}
+.hero {
+  background-repeat: no-repeat;
+  background-image: url("../images/desktop2.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.content {
+  display: flex;
+  flex-flow: column;
+}
+
+.content ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content li {
+  margin: 20px;
+  max-width: 25%;
+  color: green;
+}
+
+
+
+/* SMALL SCREEN */
+/* @media screen and (max-width: 600px) {
+  .hero {
+    background-size: contain;
+    background-position: center top;
+    position: top;
+    text-align: center;
+  }
+} */
