@@ -66,4 +66,11 @@ h3 {
   .content img {
     max-width: 75%
   }
+  #dog {
+    text-align: center;
+    min-height: 2em;
+    background-color: #215B33;
+    padding-top: .75em;
+    color: white;
+  }
 }

@@ -49,7 +49,6 @@ h3 {
 }
 
 .egg p::after {
-  color: black;
   content: "\🥧";
 }
 
@@ -58,3 +57,14 @@ h3 {
   background: #D64933;
   opacity: .75;
   border-radius: 10px;
+}
+
+/* SMALL SCREEN */
+@media screen and (max-width: 500px) {
+  .egg p {
+    border: dotted white .1em;
+    background: #D64933;
+    opacity: .75;
+    border-radius: 10px;
+  }
+}
