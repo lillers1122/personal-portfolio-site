@@ -43,15 +43,3 @@ h1 {
   max-width: 25%;
   color: green;
 }
-
-
-
-/* SMALL SCREEN */
-/* @media screen and (max-width: 600px) {
-  .hero {
-    background-size: contain;
-    background-position: center top;
-    position: top;
-    text-align: center;
-  }
-} */

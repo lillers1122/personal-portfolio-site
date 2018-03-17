@@ -1,54 +1,76 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Portfolio</title>
-    <link href="../styles/normalize.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Oswald" rel="stylesheet">
-    <link href="../styles/style.css" rel="stylesheet" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="../index.html">main</a>
-          </li>
-          <li>
-            <a href="about.html">about</a>
-          </li>
-          <li>
-            portfolio
-          </li>
-          <li>
-            hobby
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <section>
 
-    </section>
-    <section>
-      <h2>Ada Developers Academy projects:</h2>
-      <article>
-        Hotel
-      </article>
-      <article>
-        Word Guess
-      </article>
-      <article>
-        Recipe
-      </article>
-      <article>
-        Startrly
-      </article>
-    </section>
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <link href="../styles/normalize.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Oswald" rel="stylesheet">
+  <link href="../styles/style.css" rel="stylesheet" />
+  <link href="../styles/portfolio.css" rel="stylesheet" />
+</head>
 
-    <footer>
-      <p>
-        goodbye!
-      </p>
-    </footer>
-  </body>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">main</a>
+        </li>
+        <li>
+          <a href="about.html">about</a>
+        </li>
+        <li>
+          portfolio
+        </li>
+        <li>
+          hobby
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="portfolio">
+    <h2>Ada Developers Academy c9 projects:</h2>
+    <ul>
+      <li>
+        <img src="../images/Startrly-graphic.png" alt="startrly-graphic" />
+        <h3>Startrly</h3>
+        <p>
+          Prompt: Create a website from a given wireframe layout using HTML and CSS.
+        </p>
+      </li>
+      <li>
+        <img src="../images/Hotel-graphic.png" alt="hotel-graphic" />
+        <section class="text">
+          <h3>Hotel</h3>
+          <p>
+            Prompt: Create a hotel room and block reservation system using Ruby. Read and write to CSV files optional.
+          </p>
+      </li>
+      <li>
+        <img src="../images/Word-Guess-graphic2.png" alt="word-guess-graphic" />
+        <h3>Word Guess</h3>
+        <p>
+          Prompt: Create a word guess game that tracks words letters and words entered by a user. Ruby.
+        </p>
+      </li>
+      <li>
+        <img src="../images/Random-Menu-graphic.png" alt="random-menu-graphic" />
+        <h3>Random Menu</h3>
+        <p>
+          Prompt: Create a program to randomly offer a user a requested number of unique food items. Ruby.
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>
+      goodbye!
+    </p>
+  </footer>
+
+</body>
+
 </html>
