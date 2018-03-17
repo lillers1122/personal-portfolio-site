@@ -19,6 +19,12 @@ h2 {
   font-size: 2em;
 }
 
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25em;
+  text-align: center;
+}
+
 /* NAV */
 nav {
   background-color: #245972;

@@ -3,7 +3,24 @@
 } */
 
 h2 {
-  text-align: center
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+
+#dog {
+  text-align: center;
+  min-height: 2em;
+  background-color: #215B33;
+  padding-top: .75em;
+  color: #215B33;
+}
+
+#dog:hover {
+  color: white;
 }
 
 .dino {
@@ -12,28 +29,41 @@ h2 {
   align-items: center;
 }
 
-img {
+.dino img {
   margin-top: 5em;
-  max-width: 20em;
-  border-radius: 50%;
-  border: grey 3px double;
+  max-width: 15em;
 }
 
-.bio p {
+.content {
+  display: flex;
+  flex-flow: column;
+}
+
+.content ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.content li {
+  margin: 0px 20px;
+  max-width: 10%;
+    max-height: 10%;
+  color: green;
   text-align: center;
-  margin-left: 5em;
-  margin-right: 5em;
-  color: white;
-  margin-bottom: 2em;
-  font-size: 2em;
-  line-height: 2em;
+
 }
 
-.bio p::selection {
-  background: purple;
+.content img {
+  max-width: 30%;
 }
 
-.bio p::after {
-  color: black;
-  content: "\!";
+/* SMALL SCREEN */
+@media screen and (max-width: 500px) {
+  .content img {
+    max-width: 75%
+  }
 }

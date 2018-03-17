@@ -13,8 +13,8 @@ h2 {
   color: black;
   margin-left: 5%;
   font-size: 1.25em;
+  text-align: center;
 }
-
 
 .dino {
   background-color: white;
@@ -24,44 +24,40 @@ h2 {
 
 .dino img {
   max-width: 20em;
-
 }
 .hero {
-  background-repeat: no-repeat;
-  background-image: url("../images/desktop2.jpg");
-  background-color: #cccccc;
+  background-color: #215B33;
   background-size: cover;
   background-position: center;
-
 }
 
-.content {
-  display: flex;
-  flex-flow: column;
-}
-
-.content ul {
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.content li {
-  margin: 20px;
-  max-width: 10%;
-  color: green;
+.bio p {
   text-align: center;
+  padding: .5em;
+  margin-left: 5em;
+  margin-right: 5em;
+  color: white;
+  margin-bottom: 2em;
+  font-size: 1.5em;
+  line-height: 2em;
 }
 
-.content img {
-  max-width: 30%;
+.bio p:last-of-type::after {
+  color: black;
+  content: "\🥧";
+}
+
+.bio p:hover {
+  border: dotted white .1em;
+  background: #D64933;
+  opacity: .75;
+  border-radius: 10px;
 }
 
 /* SMALL SCREEN */
 @media screen and (max-width: 500px) {
-  .content img {
-    max-width: 75%
+  .bio p {
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }
