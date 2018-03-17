@@ -32,9 +32,8 @@ h3 {
 }
 
 
-img {
+.portfolio img {
   max-width: 300px;
   max-height: 15em;
   padding-right: 1em;
-
 }

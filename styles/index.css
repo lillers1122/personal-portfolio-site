@@ -1,8 +1,18 @@
-/* MAIN */
+/* * {
+  border: black 1px solid;
+} */
 
+/* MAIN */
 h1 {
   color: white;
   text-align: center;
+}
+
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+  color: black;
+  margin-left: 5%;
+  font-size: 1.25em;
 }
 
 
@@ -40,6 +50,18 @@ h1 {
 
 .content li {
   margin: 20px;
-  max-width: 25%;
+  max-width: 10%;
   color: green;
+  text-align: center;
+}
+
+.content img {
+  max-width: 30%;
+}
+
+/* SMALL SCREEN */
+@media screen and (max-width: 500px) {
+  .content img {
+    max-width: 75%
+  }
 }
