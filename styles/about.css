@@ -62,7 +62,7 @@ h3 {
 }
 
 /* SMALL SCREEN */
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   .content img {
     max-width: 75%
   }
