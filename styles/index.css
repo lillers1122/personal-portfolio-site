@@ -60,5 +60,10 @@ h2 {
   .bio p {
     margin-left: 1em;
     margin-right: 1em;
+    border: dotted white .1em;
+    background: #D64933;
+    opacity: .75;
+    border-radius: 10px;
   }
+
 }
