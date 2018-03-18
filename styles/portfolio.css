@@ -26,6 +26,9 @@ h2 {
   min-width: 300px;
 }
 
+.portfolio h3 {
+  text-align: left;
+}
 
 .portfolio img {
   max-width: 300px;
